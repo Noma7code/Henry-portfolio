@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-teal-50 max-w-700">
+    <!--navigation-->
+    <nav class="flex justify-between items-center h-full">
+      <div>
+        <a
+          class="m-4 text-5xl font-extrabold italic animate-spin text-orange-800"
+          href="/"
+          >Henry</a
+        >
+      </div>
+      <div
+        class="border-2 rounded-full m-4 hover:bg-yellow-200 max-sm:rounded-lg max-sm:w-fit"
+      >
+        <a class="m-4" href="mailto:yeboaha.henry@gmail.com ">
+          <i class="fa-solid fa-envelope text-2xl"></i>
+          <span class="font-bold italic text-green-500 text-[22px]">Email</span>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <!--Home-->
+      <section
+        id="home"
+        class="flex justify-between items-center max-sm:flex-col-reverse"
+      >
+        <div id="About" class="flex-5 gap-32">
+          <h2 class="text-4xl m-4 font-bold max-sm:text-[25px]">
+            Hi, I am Henry <br /><span class="text-red-500"
+              >Frontend Developer</span
+            >
+          </h2>
+          <p class="text-[20px] m-4 sm:text-justify max-sm:text-[16px]">
+            I am a passionate Frontend Developer with a strong eye for design
+            and a love for creating interactive, user-friendly web applications.
+            With expertise in HTML, CSS, JavaScript, and modern frameworks like
+            React, I build responsive and visually appealing interfaces that
+            enhance user experience. I thrive on problem-solving and
+            continuously learning new technologies to stay ahead in the
+            ever-evolving web development landscape.
+          </p>
+          <div id="links" class="p-2 mt-4 flex max-sm:flex-wrap max-sm:w-fit">
+            <a
+              href="#skills"
+              class="border-2 rounded border-blue-500 border-dashed m-3 bg-gray-200 p-2 font-bold"
+            >
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+            <a
+              href="#contact"
+              class="border-2 rounded border-blue-500 border-dashed m-3 bg-gray-200 p-2 font-bold"
+            >
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact Me</span>
+            </a>
+          </div>
+        </div>
+        <div id="image" class="border-indigo-500 flex-2 max-sm:w-70">
+          <img
+            class="w-100 rounded-full max-sm:w-50"
+            src="images/bio.jpg"
+            alt="profile-pic"
+          />
+        </div>
+      </section>
+
+      <!--Skills-->
+      <section id="skills">
+        <h2
+          class="font-bold text-4xl italic m-4 text-center max-sm:text-[25px]"
+        >
+          Skills
+        </h2>
+        <div class="">
+          <p class="text-[20px] m-4 sm:text-justify max-sm:text-[16px]">
+            I have experience working with various tools and technologies to
+            build dynamic and engaging web applications. I have strong frontend
+            development skills, specializing in HTML, CSS, JavaScript, and
+            React. I build responsive, user-friendly web applications with
+            clean, semantic HTML, well-styled CSS, and dynamic JavaScript
+            functionality. With React, I develop efficient, component-based
+            applications with smooth state management, ensuring a seamless user
+            experience.
+          </p>
+        </div>
+        <div
+          id="skill-icons"
+          class="flex flex-wrap justify-center m-2 space-y-2 max-sm:flex-col max-sm:items-center"
+        >
+          <div
+            class="border-2 border-teal-400 p-4 flex justify-center items-center mx-10 rounded-lg w-30 h-10 max-sm:w-[125px] max-sm:h-[42px]"
+          >
+            <img
+              class="max-sm:justify-center p-2 max-sm:ml-4 max-sm:w-[49px] w-[55px]"
+              src="images/icons8-html-5-48.png"
+            />
+            <span class="text-orange-800 font-bold italic text-center"
+              >HTML</span
+            >
+          </div>
+          <div
+            class="border-2 border-teal-400 p-2 flex justify-center items-center mx-10 rounded-lg w-30 h-10 max-sm:w-[125px] max-sm:h-[42px]"
+          >
+            <img
+              class="max-sm:justify-center p-2 max-sm:space-y-2 max-sm:w-[49px] w-[55px]"
+              src="images/icons8-css-48.png"
+            />
+            <span class="text-orange-800 font-bold italic text-center"
+              >CSS</span
+            >
+          </div>
+          <div
+            class="border-2 p-2 border-teal-400 flex justify-center items-center mx-10 rounded-lg w-30 h-9 max-sm:w-[125px] max-sm:h-[42px]"
+          >
+            <img
+              class="max-sm:justify-center p-2 max-sm:mr-3 max-sm:w-[49px] w-[50px]"
+              src="images/icons8-javascript-48.png"
+            />
+            <span class="text-orange-800 font-bold italic text-center">JS</span>
+          </div>
+          <div
+            class="border-2 border-teal-400 max-sm:p-4 flex justify-center items-center mx-10 rounded-lg w-30 h-[36px] max-sm:w-60 max-sm:h-15 p-2 max-sm:w-[125px] max-sm:h-[42px]"
+          >
+            <img
+              class="max-sm:justify-center p-2 max-sm:ml-6 w-14 ml-4 max-sm:w-[49px] w-[48px]"
+              src="images/icons8-react-native-48.png"
+            />
+            <span
+              class="text-center text-orange-800 font-bold italic max-sm:mr-3 mr-4"
+              >React</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <!--Contact Me-->
+      <section id="contact">
+        <h2
+          class="font-bold text-4xl m-4 text-center max-sm:text-[25px] italic"
+        >
+          Contact
+        </h2>
+        <form class="flex flex-col items-center flex-3">
+          <label class="font-semibold" for="name">Name</label>
+          <input
+            class="text-center bg-gray-300 text-orange-950 w-100 max-sm:justify-center max-sm:w-fit px-2"
+            type="text"
+            id="name"
+          />
+
+          <label class="font-semibold" for="email">Email</label>
+          <input
+            class="text-center max-sm:w-fit bg-gray-300 text-orange-950 w-100 px-2"
+            type="text"
+            id="email"
+          />
+
+          <label class="font-semibold" for="message">Message</label>
+          <textarea
+            class="bg-gray-300 text-orange-950 resize-none max-sm:w-[200px] px-2"
+            cols="50"
+            rows="10"
+            type="text"
+            id="message"
+          ></textarea>
+
+          <button
+            class="border-2 rounded-full w-[85px] h-[50px] m-3 p-3 hover:bg-green-500 hover:text-green-300"
+            type="submit"
+          >
+            <span class="font-bold italic text-green-900">Submit</span>
+          </button>
+        </form>
+        <footer></footer>
+      </section>
+    </main>
+  </body>
+</html>
